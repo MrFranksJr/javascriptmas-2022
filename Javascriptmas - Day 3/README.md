@@ -1,21 +1,21 @@
-# co036401aa95004b0c6b7c5f1
+*Dec 3, 2022 - Franky Jr Blondeel*
 
-Quick start:
+<p align="center">
+<img alt="title" src="https://github.com/MrFranksJr/MrFranksJr/blob/main/assets/javascriptmas-2022/title.png">
+</p>
 
-```
-$ npm install
-$ npm start
-````
+# JavaScriptmas Day 3 - Favorite Foods
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## Topic: Object Destructuring
+* 1. Edit the faveFoods object so that it contains 
+your favorite foods.
+* 2. Destructure the faveFoods object into three consts: 
+breakfast, lunch, and supper.
+* 3. Fetch the meals <section> from the DOM.
+* 4. Set the innerHTML content of the meals <section> to a paragraph
+that states what your favorite foods are for breakfast, lunch, and supper.
+Use a template literal to construct the string.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+E.g.
+For breakfast, I only like croissants 🥐. For lunch, I love pasta 🍝, 
+and for supper I want usually want pizza 🍕.

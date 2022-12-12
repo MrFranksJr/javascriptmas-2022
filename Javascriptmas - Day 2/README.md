@@ -1,28 +1,28 @@
-# co37a42fdac28a694b6aff605
+*Dec 2, 2022 - Franky Jr Blondeel*
 
-Quick start:
+<p align="center">
+<img alt="title" src="https://github.com/MrFranksJr/MrFranksJr/blob/main/assets/javascriptmas-2022/title.png">
+</p>
 
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
+# JavaScriptmas Day 2 - Totally Private Data Farm 
 
-## Development
+Good news, renown advertising firm Evil Corp. wants to purchase our 
+private user data! 
 
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
+We'd never do this in real life of course, but just for practice 
+let's pretend we're unethical web hackers and transform the data 
+in the way Evil Corp. has requested. They're quite particular and
+just want an array of users with a fullname and human readable
+birthday.   
 
-```
-$ yarn watch # npm run watch
-```
+Write a function that maps through the current data and returns
+a new an array of objects with only two properties: 
+fullName and birthday. Each result in your 
+array should look like this when you're done: 
 
-## About Scrimba
+{
+    fullName: "Levent Busser", 
+    birthday: "Fri Aug 20 1971"
+}
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Read about toDateString() for info on formatting a readable date.
