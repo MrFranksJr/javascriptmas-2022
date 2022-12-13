@@ -1,20 +1,13 @@
-*Dec 4, 2022 - Franky Jr Blondeel*
+*Dec 7, 2022 - Franky Jr Blondeel*
 
 <p align="center">
 <img alt="title" src="https://github.com/MrFranksJr/MrFranksJr/blob/main/assets/javascriptmas-2022/title.png">
 </p>
 
-# JavaScriptmas Day 4 - Whispering function 
+# JavaScriptmas Day 7 - Alternating Caps 
 
-Write a function `whisper` that takes in a sentence 
-and returns a new sentence in all lowercase letters with
-"shh..." at the beginning. 
 
-The function should also remove an exclamation point
-at the end of the sentence, if there is one. 
+Write a function that takes in a string of letters and returns a sentence in which every other letter is capitalized.
 
-Example 
-* input: "The KITTENS are SLEEPING!"
-* output: "shh... the kittens are sleeping"
-
-Hint: endsWith and slice
+Example input: "I'm so happy it's Monday"
+Example output: "I'M So hApPy iT'S MoNdAy"

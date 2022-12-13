@@ -1,20 +1,23 @@
-*Dec 4, 2022 - Franky Jr Blondeel*
+*Dec 5, 2022 - Franky Jr Blondeel*
 
 <p align="center">
 <img alt="title" src="https://github.com/MrFranksJr/MrFranksJr/blob/main/assets/javascriptmas-2022/title.png">
 </p>
 
-# JavaScriptmas Day 4 - Whispering function 
+# JavaScriptmas Day 5 - Halloween shopping 
 
-Write a function `whisper` that takes in a sentence 
-and returns a new sentence in all lowercase letters with
-"shh..." at the beginning. 
 
-The function should also remove an exclamation point
-at the end of the sentence, if there is one. 
+It's the day after Halloween 🎃 and all the candy is on sale!
 
-Example 
-* input: "The KITTENS are SLEEPING!"
-* output: "shh... the kittens are sleeping"
+To buy up all the candy, use map() and filter() to put all the
+candy into a `shoppingCart` array. 
 
-Hint: endsWith and slice
+The new array should contain only the item and the price, like
+this: 
+
+Expected output: 
+[
+    {item: "🍭", price: 2.99},
+    {item: "🍫", price: 1.99}, 
+    {item: "🍬", price: 0.89}
+]
