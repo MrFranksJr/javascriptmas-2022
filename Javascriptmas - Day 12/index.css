@@ -1,0 +1,10 @@
+html {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+}
+
+.food {
+    font-size: 2rem;
+    margin: 0.25em;
+}
