@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>🎄 Christmas Jukebox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>🎄 Christmas Jukebox 🎄</h1>
+    <button onclick="showHide(this)" class="hideFrame" id="hideFrame">Hide Video</button>
+    <iframe id="player" type="text/html" width="480" height="240" src="https://www.youtube.com/embed/PoAjmmD89Vw?autoplay=1&mute=1" frameborder="0" allow="autoplay"></iframe>
+    <div class="songs">
+        <button onclick="playSong('PoAjmmD89Vw', this)">White Christmas</button>
+        <button onclick="playSong('1qYz7rfgLWE', this)">Rockin' Around The Christmas Tree</button>
+        <button onclick="playSong('R_vmuL0gjU0', this)">Jingle Bell Rock</button>
+        <button onclick="playSong('WaNwEkCeZrE', this)">It's Beginning to Look a Lot Like Christmas</button>
+        <button onclick="playSong('AN_R4pR1hck', this)">It's the Most Wonderful Time of the Year</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
